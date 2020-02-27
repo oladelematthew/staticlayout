@@ -1,0 +1,39 @@
+body {
+    background-color: #f1f3f5;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1232px;
+    margin: 0 auto;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.home-back{
+    color: #345;
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 100ms linear;
+}
+
+.logo{
+    font-size: 11px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-decoration: none;
+    flex: 1 1 auto;
+    color: #345;
+}
